@@ -1270,6 +1270,8 @@ export interface AssetTypeResponse {
     decimals?: number;
 }
 
+export type UsageResponse = Record<string, number>;
+
 export interface User {
     id: string;
     firstName: string;
